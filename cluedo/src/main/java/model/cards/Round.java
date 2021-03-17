@@ -10,13 +10,13 @@ public class Round {
     private Long id;
     private final Weapon weapon;
     private final Character character;
-    private final Room room;
+    private final Place place;
 
-    public Round(Weapon weapon, Character character, Room room) {
+    public Round(Weapon weapon, Character character, Place place) {
         this.id = nextId();
         this.weapon = weapon;
         this.character = character;
-        this.room = room;
+        this.place = place;
     }
 
     static class idGenerator {
