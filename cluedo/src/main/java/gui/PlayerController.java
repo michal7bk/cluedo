@@ -11,6 +11,8 @@ import java.util.ResourceBundle;
 
 public class PlayerController implements Initializable {
 
+    private int numberOfPlayers;
+
     @FXML
     public Button buttonLeftDown;
     @FXML
@@ -27,5 +29,9 @@ public class PlayerController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         List<Button> buttons = Arrays.asList(buttonLeftDown, buttonCenterDown, buttonLeftUp, buttonRightUp, buttonCenterUp, buttonRightDown);
+    }
+
+    protected void initData(int numberOfPlayers) {
+        this.numberOfPlayers = numberOfPlayers;
     }
 }
