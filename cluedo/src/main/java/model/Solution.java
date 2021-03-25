@@ -1,4 +1,8 @@
-package model.cards;
+package model;
+
+import model.cards.Character;
+import model.cards.Place;
+import model.cards.Weapon;
 
 public class Solution {
 

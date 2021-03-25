@@ -1,7 +1,6 @@
 import model.Player;
 import model.cards.Character;
 import model.cards.Place;
-import model.cards.Round;
 import model.cards.Weapon;
 
 import java.util.*;
